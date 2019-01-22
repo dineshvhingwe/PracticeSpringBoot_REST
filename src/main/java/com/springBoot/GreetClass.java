@@ -17,7 +17,7 @@ public class GreetClass
 	@GetMapping(value="/simple",produces="application/xml")  ///note it @GetMapping  similar to RequestMapping
 	public String greetwithName(@PathVariable("name") String name)
 	{
-		return "Hello "+name+". This is Spring boot REST WS!!";
+		return "Hello "+name+". This is Spring boot REST WS!!!";
 	}
 
 }
